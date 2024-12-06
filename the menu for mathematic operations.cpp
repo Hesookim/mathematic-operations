@@ -5,9 +5,7 @@ int main()
 {
     int n;
     float x , y , res;
-    cout << "Hello! This is the menu that does as follows :"" \n1)sum of the numbers \n2)Subtraction of numbers\n"
-    "3)multiplication of numbers \n4)division of numbers\n5)exit the menu\n"
-    "Type the number of your selected mathematics operation : ";
+    cout << "Hello! This is the menu that does as follows :"" \n1)sum of the numbers \n2)Subtraction of numbers\n3)multiplication of numbers \n4)division of numbers\n5)exit the menu\nType the number of your selected mathematics operation : ";
     cin >> n;
     while (! ((n == 1)||(n == 2)||(n == 3)||(n == 4)||(n == 5)))
     {
