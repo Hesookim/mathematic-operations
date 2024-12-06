@@ -49,9 +49,7 @@ int main()
             res = (x / y);
             cout << "The result of operation 4 is: " << res;
         }
-        cout << "\nIf you want to use another operation choose another number.\nMENU :\n1)sum of numbers \n2)subtraction of numbers\n"
-        "3)multiplication of numbers \n4)division of numbers\n5)exit\n"
-        "Type the number of your selected mathematics operation : ";
+        cout << "\nIf you want to use another operation choose another number.\nMENU :\n1)sum of numbers \n2)subtraction of numbers\n3)multiplication of numbers \n4)division of numbers\n5)exit\nType the number of your selected mathematics operation : ";
         cin >> n;
         cout << "The menu is closed. ""Thank you for using this program.";
 
